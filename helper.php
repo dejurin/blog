@@ -2,7 +2,6 @@
 
 function short_text_dot($text, $len = 0) 
 {
-	$text_len = mb_strlen($text);
 	$_text = $text;
 
 	if ($len > 0) {
