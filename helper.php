@@ -10,3 +10,7 @@ function short_text_dot($text, $len = 0)
 	   
 	return mb_substr($text, 0, mb_strpos($_text, '.') + $len + 1);
 }
+
+$text = preg_replace("/\(([^\)]*)\)/ui", '', $text);
+$text = preg_replace("/\[([^\]]*)\]/ui", '', $text);
+$text = preg_replace("/\s+/ui", ' ', $text);
