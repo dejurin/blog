@@ -16,4 +16,3 @@ Here I share tutorials, guides, and experiments about **Go**, **TypeScript**, **
 All content is licensed under the **Creative Commons Attribution 4.0 (CC BY 4.0)**.  
 You are free to share and adapt with attribution.
 
----
